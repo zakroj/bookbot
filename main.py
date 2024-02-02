@@ -11,8 +11,3 @@ def get_book_text(path):
 def get_num_words(text):
     words = text.split()
     return len(words)
-
-with open("books/frankenstein.txt") as f:
-    file_contents = f.read()
-split_words = file_contents.split()
-print(len(split_words))
